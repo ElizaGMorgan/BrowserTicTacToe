@@ -1,0 +1,19 @@
+#square-container{
+    border: 1px #000000 solid;
+    margin:auto;
+    min-height: 100px;
+}
+.logo{
+    float: left;
+    width: 100px;
+    vertical-align: baseline;
+}
+.nav{
+    text-align: right;
+    vertical-align: baseline;
+}
+.nav li{
+    display: inline-block;
+    font-size: 15px;
+    padding: 5px;
+}
