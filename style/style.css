@@ -1,19 +1,39 @@
 #square-container{
-    border: 1px #000000 solid;
+    border: 1px black solid;
     margin:auto;
-    min-height: 100px;
+    min-height: 85px;
 }
 .logo{
     float: left;
-    width: 100px;
-    vertical-align: baseline;
+    padding: 35px 15px 5px;
+    height: 50px;
+}
+.profilePic{
+    padding: 35px;
+    display: block;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .nav{
     text-align: right;
-    vertical-align: baseline;
+
 }
 .nav li{
     display: inline-block;
     font-size: 15px;
-    padding: 5px;
+    padding: 50px 5px 5px;
+}
+h1, h2{
+    text-align: center;
+    color: #6d459d;
+}
+a:link{
+    color: #6d459d;;
+}
+a:visited{
+    color: #b294d8;
+}
+a:hover{
+    color: #8c64ac;
 }
