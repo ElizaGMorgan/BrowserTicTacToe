@@ -1,7 +1,9 @@
 #square-container{
     border: 1px #000000 solid;
     margin:auto;
-    min-height: 400px;
+    min-height: 450px;
+    width: 800px;
+    transition: all 3s;
 }
 
 .even{
@@ -31,9 +33,16 @@
 }
 
 #square-container:hover .even{
-    transform: translateX(-100px) rotate(1080deg);
+    transform: translateX(-350px) rotate(1080deg);
+    height: 100px;
+    width: 100px;
 }
 
 #square-container:hover .odd{
-    transform: translateX(100px) rotate(1080deg);
+    transform: translateX(382px) rotate(-1080deg);
+    height: 38px;
+    width: 38px;
+}
+#square-container:hover {
+    border-radius: 25px;
 }
