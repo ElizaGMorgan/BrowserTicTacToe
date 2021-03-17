@@ -20,14 +20,25 @@
     border-radius: 5px;
     height: 45px;
     background-color: antiquewhite;
+    font-size: 25px;
+    line-height: 45px;
+    text-align: right;
 }
 
 .key{
-    height: 50px;
+    min-height: 50px;
     background-color: antiquewhite;
     border-radius: 3px;
     font-size: 30x;
     line-height: 50px;
+    cursor: pointer;
+}
+
+.equal-key{
+    background-color: antiquewhite;
+    border-radius: 3px;
+    font-size: 30x;
+    line-height: 200px;
     cursor: pointer;
 }
 
