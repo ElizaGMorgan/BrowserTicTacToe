@@ -1,0 +1,56 @@
+#container{
+    width: 310px;
+    margin: auto;
+    background-color: #ffb6c1;
+    padding: 5px;
+    text-align: center;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-areas: 
+    'spot1 spot2 spot3'
+    'spot4 spot5 spot6'
+    'spot7 spot8 spot9';
+}
+
+#announcement{
+    text-align: center;
+    font-size: 50;
+}
+
+.space{
+    min-height: 100px;
+    background-color: antiquewhite;
+    border-radius: 3px;
+    line-height: 100px;
+    cursor: pointer;
+}
+
+#space1{
+    grid-area: spot1;
+}
+#space2{
+    grid-area: spot2;
+}
+#space3{
+    grid-area: spot3;
+}
+
+#space4{
+    grid-area: spot4;
+}
+#space5{
+    grid-area: spot5;
+}
+#space6{
+    grid-area: spot6;
+}
+
+#space7{
+    grid-area: spot7;
+}
+#space8{
+    grid-area: spot8;
+}
+#space9{
+    grid-area: spot9;
+}
